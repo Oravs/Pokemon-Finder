@@ -38,7 +38,7 @@ const displayPokemon = async () => {
     name.innerHTML = `${pokemon.get().name} (${pokemon.get().id})`;
     image.src = pokemon.get().sprites.front_default;
 }
-// show stats list on the page (includes base experience as "base-XP")
+// show stats list on the page 
 const displayStats = async () => {
     const stats = pokemon.get().stats;
     stats.push({
@@ -108,4 +108,3 @@ searchBar.addEventListener("submit", async (e) => {
     const inputElement = e.target[0];
     inputElement.value = "";
 });
-    

@@ -10,7 +10,7 @@ Features:
     Tries to look like a pokedex
 
 Project can be found:
-Netlify link:
+Netlify link:https://pokemon-finder2025.netlify.app/
 
-Video demo:
+Video demo:https://video.laurea.fi/media/Js+project+2-+Pokemon+Finder/0_q5295g3b
 
