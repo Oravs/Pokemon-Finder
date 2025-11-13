@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer type="module"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokemon Finder</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Pokemon Finder</h1>
+      <div id="info">
+        <p>
+          Who's that pokemon? <br />
+          Find it by name or ID-number: Bulbasaur 1
+        </p>
+        <img src="images/pngwing.com.png" alt="Waving pokemon" />
+      </div>
+      <form action="" id="search">
+        <input
+          type="text"
+          name="pokemon-name"
+          id="pokemon-name"
+          placeholder="Name or ID-number"
+          minlength="1"
+          required
+        />
+        <input type="submit" value="Find" />
+      </form>
+    </header>
+
+    <section id="card">
+      <header id="pokemon">
+        <img src="" alt="" id="image" />
+        <h2 id="name"></h2>
+      </header>
+      <div>
+        <h2>Stats</h2>
+        <ul id="stats">
+          <!--Stats-->
+        </ul>
+      </div>
+      <div>
+        <h2>Moves</h2>
+        <ul id="moves">
+          <!--Moves-->
+        </ul>
+      </div>
+      <div>
+        <h2>Abilities</h2>
+        <ul id="abilities">
+          <!--Abilities-->
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
